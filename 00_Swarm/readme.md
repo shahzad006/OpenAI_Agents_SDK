@@ -25,5 +25,32 @@ These are like **teamwork strategies:**
 5. **Evaluator-Optimizer** – One robot checks the others’ work and tells them how to improve.
 
 ### 💡 Simple way to remember:
-Swarm = training wheels for robot teamwork.
+Swarm = training wheels for robot teamwork.  <br>
+
 Agents SDK = the full racing bike with gears, brakes, and speed.
+
+
+
+
+# Anthropic Design Patterns
+
+
+OpenAI’s Agents SDK is a toolkit for building and managing AI agents that can work together to do complicated jobs. It matches well with ideas from Anthropic about how to design effective AI agents.
+
+## 1. Prompt Chaining (Step-by-Step Workflow)
+Break a big job into smaller, easier steps. Each step uses the result from the step before it. With the Agents SDK, you can set up agents that follow this step-by-step plan.
+
+## 2. Routing
+Send each task to the agent best suited to handle it. The SDK’s “handoff” feature lets one agent pass the job to another when needed.
+
+## 3. Parallelization
+Do several tasks at the same time to be faster. The SDK can run multiple agents in parallel and manage them all.
+
+## 4. Orchestrator-Workers
+Have one “boss” agent (the orchestrator) break a big task into smaller parts and give each part to “worker” agents. The orchestrator keeps track of progress and makes sure everything works together.
+
+## 5. Evaluator-Optimizer
+Have an “evaluator” agent check how well other agents are doing, then suggest ways to improve. The SDK’s guardrails feature helps create this feedback loop so the agents keep getting better.
+
+
+By using these patterns, developers can make AI agents that are more **organized**, **efficient**, and **smart**.
