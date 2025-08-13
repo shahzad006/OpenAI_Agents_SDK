@@ -16,7 +16,6 @@ Swarm is **light and simple**, made for practicing and learning how these robot 
 The **Agents SDK** is like Swarm’s **big brother** — stronger, faster, and ready for real-world jobs.
 It takes Swarm’s ideas and adds more powerful tools so big companies can use them.
 
-<br><br>
 
 ### Design Patterns (fancy word for “ways to organize the team”)
 These are like **teamwork strategies:**
@@ -34,38 +33,30 @@ Agents SDK = the full racing bike with gears, brakes, and speed.
 
 <br>
 <br>
-<br>
+
 
 # Anthropic Design Patterns
 
 
 OpenAI’s Agents SDK is a toolkit for building and managing AI agents that can work together to do complicated jobs. It matches well with ideas from Anthropic about how to design effective AI agents.
 
-<br>
-
 ## 1. Prompt Chaining (Step-by-Step Workflow)
 Break a big job into smaller, easier steps. Each step uses the result from the step before it. With the Agents SDK, you can set up agents that follow this step-by-step plan.
-
-<br>
 
 ## 2. Routing
 Send each task to the agent best suited to handle it. The SDK’s “handoff” feature lets one agent pass the job to another when needed.
 
-<br>
-
 ## 3. Parallelization
 Do several tasks at the same time to be faster. The SDK can run multiple agents in parallel and manage them all.
-
-<br>
 
 ## 4. Orchestrator-Workers
 Have one “boss” agent (the orchestrator) break a big task into smaller parts and give each part to “worker” agents. The orchestrator keeps track of progress and makes sure everything works together.
 
-<br>
 
 ## 5. Evaluator-Optimizer
 Have an “evaluator” agent check how well other agents are doing, then suggest ways to improve. The SDK’s guardrails feature helps create this feedback loop so the agents keep getting better.
 
 
 By using these patterns, developers can make AI agents that are more **organized**, **efficient**, and **smart**.
+
 
